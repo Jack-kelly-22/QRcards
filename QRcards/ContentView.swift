@@ -13,7 +13,7 @@ import SwiftUI
 struct RoundedButton : View {
     var body: some View {
         Button(action: {}) {
-            Text("Save")
+            Text("Save data")
         }
     }
 }
