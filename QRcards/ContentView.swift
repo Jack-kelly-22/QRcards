@@ -8,9 +8,44 @@
 
 import SwiftUI
 
-struct ContentView: View {
+
+
+struct RoundedButton : View {
     var body: some View {
-        Text("Hello, World!")
+        Button(action: {}) {
+            Text("Save")
+        }
+    }
+}
+
+struct ContentView : View {
+    @State var first_name: String = ""
+    @State var last_name: String = ""
+    @State var middle_name: String = ""
+    @State var title: String = ""
+    @State var website: String = ""
+    @State var snapchat: String = ""
+    @State var twitter: String = ""
+    @State var instagram: String = ""
+    @State var address: String = ""
+    @State var company: String = ""
+    @State var email: String = ""
+    
+    
+    var body: some View {
+
+            
+ 
+        VStack{
+            TextField("First Name", text: $first_name)
+
+            //RoundedButton().padding(.top, 20)
+        }
+        .padding(.top, 20)
+        .listRowInsets(EdgeInsets())
+            
+
+ 
     }
 }
 
