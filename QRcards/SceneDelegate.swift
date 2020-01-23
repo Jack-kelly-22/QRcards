@@ -29,6 +29,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             self.window = window
             window.makeKeyAndVisible()
         }
+        MasterContact(First:"jack", Last: "kelly",phoneNumber: "000000000" )
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

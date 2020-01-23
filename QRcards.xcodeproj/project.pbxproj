@@ -14,6 +14,15 @@
 		2EAD605423D82BDF00453B24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EAD605323D82BDF00453B24 /* Preview Assets.xcassets */; };
 		2EAD605723D82BDF00453B24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EAD605523D82BDF00453B24 /* LaunchScreen.storyboard */; };
 		2EAD606223D82BE000453B24 /* QRcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD606123D82BE000453B24 /* QRcardsUITests.swift */; };
+		2EAD606D23D8F6A200453B24 /* Info_to_vcf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD606C23D8F6A200453B24 /* Info_to_vcf.swift */; };
+		2EAD606F23D8F6FE00453B24 /* MasterContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD606E23D8F6FE00453B24 /* MasterContact.swift */; };
+		2EAD607723D9496900453B24 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EAD607623D9496900453B24 /* NotificationCenter.framework */; };
+		2EAD607A23D9496900453B24 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EAD607923D9496900453B24 /* TodayViewController.swift */; };
+		2EAD607D23D9496900453B24 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EAD607B23D9496900453B24 /* MainInterface.storyboard */; };
+		2EAD608123D9496A00453B24 /* QRextension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2EAD607423D9496900453B24 /* QRextension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2EAD608923D94E3900453B24 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EAD607B23D9496900453B24 /* MainInterface.storyboard */; };
+		2EAD608B23D94EED00453B24 /* pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EAD608A23D94EED00453B24 /* pic.png */; };
+		2EAD608C23D94EED00453B24 /* pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EAD608A23D94EED00453B24 /* pic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +33,28 @@
 			remoteGlobalIDString = 2EAD604623D82BDC00453B24;
 			remoteInfo = QRcards;
 		};
+		2EAD607F23D9496A00453B24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EAD603F23D82BDC00453B24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EAD607323D9496900453B24;
+			remoteInfo = QRextension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2EAD608523D9496A00453B24 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2EAD608123D9496A00453B24 /* QRextension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2EAD604723D82BDC00453B24 /* QRcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +68,14 @@
 		2EAD605D23D82BE000453B24 /* QRcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAD606123D82BE000453B24 /* QRcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRcardsUITests.swift; sourceTree = "<group>"; };
 		2EAD606323D82BE000453B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EAD606C23D8F6A200453B24 /* Info_to_vcf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info_to_vcf.swift; sourceTree = "<group>"; };
+		2EAD606E23D8F6FE00453B24 /* MasterContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterContact.swift; sourceTree = "<group>"; };
+		2EAD607423D9496900453B24 /* QRextension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QRextension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EAD607623D9496900453B24 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		2EAD607923D9496900453B24 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		2EAD607C23D9496900453B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		2EAD607E23D9496900453B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EAD608A23D94EED00453B24 /* pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,14 +93,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2EAD607123D9496900453B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EAD607723D9496900453B24 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		2EAD603E23D82BDC00453B24 = {
 			isa = PBXGroup;
 			children = (
+				2EAD608A23D94EED00453B24 /* pic.png */,
 				2EAD604923D82BDC00453B24 /* QRcards */,
 				2EAD606023D82BE000453B24 /* QRcardsUITests */,
+				2EAD607823D9496900453B24 /* QRextension */,
+				2EAD607523D9496900453B24 /* Frameworks */,
 				2EAD604823D82BDC00453B24 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +121,7 @@
 			children = (
 				2EAD604723D82BDC00453B24 /* QRcards.app */,
 				2EAD605D23D82BE000453B24 /* QRcardsUITests.xctest */,
+				2EAD607423D9496900453B24 /* QRextension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +133,8 @@
 				2EAD604C23D82BDC00453B24 /* SceneDelegate.swift */,
 				2EAD604E23D82BDC00453B24 /* ContentView.swift */,
 				2EAD605023D82BDF00453B24 /* Assets.xcassets */,
+				2EAD606C23D8F6A200453B24 /* Info_to_vcf.swift */,
+				2EAD606E23D8F6FE00453B24 /* MasterContact.swift */,
 				2EAD605523D82BDF00453B24 /* LaunchScreen.storyboard */,
 				2EAD605823D82BDF00453B24 /* Info.plist */,
 				2EAD605223D82BDF00453B24 /* Preview Content */,
@@ -107,6 +159,24 @@
 			path = QRcardsUITests;
 			sourceTree = "<group>";
 		};
+		2EAD607523D9496900453B24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EAD607623D9496900453B24 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EAD607823D9496900453B24 /* QRextension */ = {
+			isa = PBXGroup;
+			children = (
+				2EAD607923D9496900453B24 /* TodayViewController.swift */,
+				2EAD607B23D9496900453B24 /* MainInterface.storyboard */,
+				2EAD607E23D9496900453B24 /* Info.plist */,
+			);
+			path = QRextension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,10 +187,12 @@
 				2EAD604323D82BDC00453B24 /* Sources */,
 				2EAD604423D82BDC00453B24 /* Frameworks */,
 				2EAD604523D82BDC00453B24 /* Resources */,
+				2EAD608523D9496A00453B24 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2EAD608023D9496A00453B24 /* PBXTargetDependency */,
 			);
 			name = QRcards;
 			productName = QRcards;
@@ -145,6 +217,23 @@
 			productReference = 2EAD605D23D82BE000453B24 /* QRcardsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		2EAD607323D9496900453B24 /* QRextension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EAD608223D9496A00453B24 /* Build configuration list for PBXNativeTarget "QRextension" */;
+			buildPhases = (
+				2EAD607023D9496900453B24 /* Sources */,
+				2EAD607123D9496900453B24 /* Frameworks */,
+				2EAD607223D9496900453B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRextension;
+			productName = QRextension;
+			productReference = 2EAD607423D9496900453B24 /* QRextension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,6 +250,9 @@
 					2EAD605C23D82BE000453B24 = {
 						CreatedOnToolsVersion = 11.3.1;
 						TestTargetID = 2EAD604623D82BDC00453B24;
+					};
+					2EAD607323D9496900453B24 = {
+						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
@@ -179,6 +271,7 @@
 			targets = (
 				2EAD604623D82BDC00453B24 /* QRcards */,
 				2EAD605C23D82BE000453B24 /* QRcardsUITests */,
+				2EAD607323D9496900453B24 /* QRextension */,
 			);
 		};
 /* End PBXProject section */
@@ -189,8 +282,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EAD605723D82BDF00453B24 /* LaunchScreen.storyboard in Resources */,
+				2EAD608923D94E3900453B24 /* MainInterface.storyboard in Resources */,
 				2EAD605423D82BDF00453B24 /* Preview Assets.xcassets in Resources */,
 				2EAD605123D82BDF00453B24 /* Assets.xcassets in Resources */,
+				2EAD608B23D94EED00453B24 /* pic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +296,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2EAD607223D9496900453B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EAD608C23D94EED00453B24 /* pic.png in Resources */,
+				2EAD607D23D9496900453B24 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -208,6 +312,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EAD606D23D8F6A200453B24 /* Info_to_vcf.swift in Sources */,
+				2EAD606F23D8F6FE00453B24 /* MasterContact.swift in Sources */,
 				2EAD604B23D82BDC00453B24 /* AppDelegate.swift in Sources */,
 				2EAD604D23D82BDC00453B24 /* SceneDelegate.swift in Sources */,
 				2EAD604F23D82BDC00453B24 /* ContentView.swift in Sources */,
@@ -222,6 +328,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2EAD607023D9496900453B24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EAD607A23D9496900453B24 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -229,6 +343,11 @@
 			isa = PBXTargetDependency;
 			target = 2EAD604623D82BDC00453B24 /* QRcards */;
 			targetProxy = 2EAD605E23D82BE000453B24 /* PBXContainerItemProxy */;
+		};
+		2EAD608023D9496A00453B24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EAD607323D9496900453B24 /* QRextension */;
+			targetProxy = 2EAD607F23D9496A00453B24 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -239,6 +358,14 @@
 				2EAD605623D82BDF00453B24 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2EAD607B23D9496900453B24 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EAD607C23D9496900453B24 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -361,6 +488,7 @@
 		2EAD606723D82BE000453B24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"QRcards/Preview Content\"";
@@ -381,6 +509,7 @@
 		2EAD606823D82BE000453B24 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"QRcards/Preview Content\"";
@@ -438,6 +567,44 @@
 			};
 			name = Release;
 		};
+		2EAD608323D9496A00453B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DL9H47JB8;
+				INFOPLIST_FILE = QRextension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JKdev.QRcards.QRextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EAD608423D9496A00453B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DL9H47JB8;
+				INFOPLIST_FILE = QRextension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JKdev.QRcards.QRextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -464,6 +631,15 @@
 			buildConfigurations = (
 				2EAD606A23D82BE000453B24 /* Debug */,
 				2EAD606B23D82BE000453B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EAD608223D9496A00453B24 /* Build configuration list for PBXNativeTarget "QRextension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EAD608323D9496A00453B24 /* Debug */,
+				2EAD608423D9496A00453B24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
